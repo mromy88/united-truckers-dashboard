@@ -4,13 +4,13 @@ import { getFirestore, doc, getDoc, updateDoc } from "https://www.gstatic.com/fi
 import { getStorage, ref, uploadBytes, getDownloadURL } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-storage.js";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyA0Y_gKGuFh78K8myFidwWdNBHEqQp909Y",
-    authDomain: "united-truckers-dashboard.firebaseapp.com",
-    projectId: "united-truckers-dashboard",
-    storageBucket: "united-truckers-dashboard.appspot.com",
-    messagingSenderId: "380158661587",
-    appId: "1:380158661587:web:a75b30e8ad303968a45526",
-    measurementId: "G-2R6XY9Y82S"
+    apiKey: "AIzaSyCPEsXMbo4X2t9ikhADrAKWhWabwH060L8",
+    authDomain: "final-dashboard-8fa19.firebaseapp.com",
+    projectId: "final-dashboard-8fa19",
+    storageBucket: "final-dashboard-8fa19.firebasestorage.app",
+    messagingSenderId: "859410640444",
+    appId: "1:859410640444:web:05519a1d78383230bddd39",
+    measurementId: "G-CXEK1D40WL"
 };
 
 const app = initializeApp(firebaseConfig);
